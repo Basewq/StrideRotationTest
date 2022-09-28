@@ -1,0 +1,571 @@
+!UIPageAsset
+Id: a0ba0b2f-46aa-437e-8c8c-906c9332dd6d
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 518b8f57-b4f2-42c7-9146-606111c5566b
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 001ac816-f56f-4332-8744-f660d0c18215
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: ZXY
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 8f2b8b9f-f262-4e7a-a4f5-f32f1c471107
+        -   UIElement: !TextBlock
+                Id: 08236475-2ff2-47eb-893c-bc12887e0438
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Top: 5.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: CurrentOrderLabel
+                Text: 'Current Order:'
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 18e5d904-1ea3-4e3f-8a53-0102ba6ed9cc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 85.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: Z (Roll)
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: f0dafc8b-ce2a-45df-8c36-22a636dcd119
+                InstanceId: 14e6becb-3fbb-4b33-aa27-18099195ed6a
+        -   UIElement: !TextBlock
+                Id: 1d8bc185-244a-46b2-aad9-58684870cc0b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: YXZ
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 5773d76e-a549-428f-8e94-66deae02223b
+        -   UIElement: !StackPanel
+                Id: 3b85b0ce-4e76-4b68-87e8-8affb573788b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    855a4869852bcc1368cb92a97f480f0e: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! 42ae569e-f81c-4e9d-94a2-f6da233a8d12
+                    77f3cf4e40b5bfd1b553dc1670130e6c: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! aa98adcb-cea8-409a-a0b4-108a5875c1ce
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 3cf9a866-cab3-4b1b-8d3f-c664af10db00
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 85.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: X (Pitch)
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: f0dafc8b-ce2a-45df-8c36-22a636dcd119
+                InstanceId: e6fe7597-92c3-4e66-a4f6-e9e2c5290b4c
+        -   UIElement: !TextBlock
+                Id: 3d200c96-6ecd-4bbf-bb33-e404938f3ce8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 85.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: Y (Yaw)
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: f0dafc8b-ce2a-45df-8c36-22a636dcd119
+                InstanceId: 0d874b94-ab9e-4a52-a07a-22a21edd5c94
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: 42ae569e-f81c-4e9d-94a2-f6da233a8d12
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin*: {Right: 5.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: UseMatrixButton
+                Content: !TextBlock ref!! c152a41f-6e78-498f-a3c1-84885bf2bc5e
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 9015253a-f993-4c1c-b6bb-69e9e842d9b9
+        -   UIElement: !Grid
+                Id: 518b8f57-b4f2-42c7-9146-606111c5566b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    bf8885bd0ba74f7d2afc6b25c08f0497: !StackPanel ref!! 7378c831-f4ab-41b1-975b-977439362b6d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: 55918cbe-45cc-4b0c-b144-e8509ad9c646
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: OrderZYXButton
+                Content: !TextBlock ref!! bb2df792-b24e-4bd9-89e2-61664377e829
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 278b5699-4981-4ecc-9fb2-30f006d9554d
+        -   UIElement: !StackPanel
+                Id: 602f9077-6f00-4392-8806-53490ba770f7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 200.0
+                HorizontalAlignment: Left
+                Margin: {Bottom: 10.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    0280f2f32ffaa872011f1dec9fc4a703: !TextBlock ref!! 08236475-2ff2-47eb-893c-bc12887e0438
+                    7c65a1435cc5258b7d2d28a294cc5d78: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! 736f3214-492e-4a15-9f03-02844e7a736f
+                    a6928a43bdafaedab27cbe7ca992ebe7: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! d97d6dc1-44e0-492f-a259-5caa7efdff13
+                    0925b2416b192e4caeea527ce0d9e61e: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! 82c307fa-4875-4d6f-82bf-b18294ab5687
+                    7775544291d5b9fa813340fa2802c08e: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game ref!! 55918cbe-45cc-4b0c-b144-e8509ad9c646
+                    5fc24383a8a187381efd71d381f9272b: !TextBlock ref!! 9d8108d1-2164-4948-90ae-4561545ecdb6
+                    537d854059601d658fe980d24ce97535: !StackPanel ref!! 3b85b0ce-4e76-4b68-87e8-8affb573788b
+        -   UIElement: !StackPanel
+                Id: 6fe16483-31a6-4fbd-93f6-c052b7ab3489
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 220.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: NumberEdit
+                Children:
+                    1677abd5c3e927a5097f8a0e73a6c262: !TextBlock ref!! 3d200c96-6ecd-4bbf-bb33-e404938f3ce8
+                    51b5ea46aa3f195d1538ea61d310e64c: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game ref!! 9365baaa-4f07-44fa-8059-37c5f8672f80
+                Orientation: Horizontal
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 281f77b6-c09b-408c-9d6d-58cb32e050f4
+                InstanceId: 0d874b94-ab9e-4a52-a07a-22a21edd5c94
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: 736f3214-492e-4a15-9f03-02844e7a736f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: OrderYXZButton
+                Content: !TextBlock ref!! 1d8bc185-244a-46b2-aad9-58684870cc0b
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 5773d76e-a549-428f-8e94-66deae02223b
+        -   UIElement: !StackPanel
+                Id: 7378c831-f4ab-41b1-975b-977439362b6d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 20.0, Top: 20.0, Right: 20.0, Bottom: 20.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    f13c7fb3e49a71d0e47914fca1f0fb5b: !StackPanel ref!! b7edfa32-46e4-47b7-b7d5-e48d7ed3e5b7
+                    0f8f502ce14df5bc4235c0fa9700f651: !StackPanel ref!! 6fe16483-31a6-4fbd-93f6-c052b7ab3489
+                    cd622f582b515a48a6faa49a2917992c: !StackPanel ref!! 98a78919-cecf-4811-a999-c2edd6101d02
+                    5df87ae9c112fabd49962d59ff77771d: !StackPanel ref!! 602f9077-6f00-4392-8806-53490ba770f7
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: 82c307fa-4875-4d6f-82bf-b18294ab5687
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: OrderXYZButton
+                Content: !TextBlock ref!! c5229bbd-3e8b-4c28-b8c1-50a5f5fa8d07
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 59bc7661-e117-470f-994b-328b179c7f00
+        -   UIElement: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game
+                Id: 85ec99cb-dd50-4957-b83a-fdaeac357951
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 100.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: XNumberEdit
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+                Text: 0
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 145a062b-fe4f-407e-baf0-1585d25ad4da
+                InstanceId: e6fe7597-92c3-4e66-a4f6-e9e2c5290b4c
+        -   UIElement: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game
+                Id: 9365baaa-4f07-44fa-8059-37c5f8672f80
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 100.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: YNumberEdit
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+                Text: 0
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 145a062b-fe4f-407e-baf0-1585d25ad4da
+                InstanceId: 0d874b94-ab9e-4a52-a07a-22a21edd5c94
+        -   UIElement: !StackPanel
+                Id: 98a78919-cecf-4811-a999-c2edd6101d02
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 220.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: NumberEdit
+                Children:
+                    1677abd5c3e927a5097f8a0e73a6c262: !TextBlock ref!! 18e5d904-1ea3-4e3f-8a53-0102ba6ed9cc
+                    51b5ea46aa3f195d1538ea61d310e64c: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game ref!! 9a35858b-01a1-4496-b556-f3e8400eb04e
+                Orientation: Horizontal
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 281f77b6-c09b-408c-9d6d-58cb32e050f4
+                InstanceId: 14e6becb-3fbb-4b33-aa27-18099195ed6a
+        -   UIElement: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game
+                Id: 9a35858b-01a1-4496-b556-f3e8400eb04e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 100.0
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: ZNumberEdit
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+                Text: 0
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 145a062b-fe4f-407e-baf0-1585d25ad4da
+                InstanceId: 14e6becb-3fbb-4b33-aa27-18099195ed6a
+        -   UIElement: !TextBlock
+                Id: 9d8108d1-2164-4948-90ae-4561545ecdb6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Top: 5.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Change Data Type
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: aa98adcb-cea8-409a-a0b4-108a5875c1ce
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: UseQuaternionButton
+                Content: !TextBlock ref!! e3fb21fc-4dbc-4aca-8858-1925b36099c7
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 4b2d8ec2-359f-410b-99a1-9a472b64c21b
+        -   UIElement: !StackPanel
+                Id: b7edfa32-46e4-47b7-b7d5-e48d7ed3e5b7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 220.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: NumberEdit
+                Children:
+                    1677abd5c3e927a5097f8a0e73a6c262: !TextBlock ref!! 3cf9a866-cab3-4b1b-8d3f-c664af10db00
+                    51b5ea46aa3f195d1538ea61d310e64c: !StrideRotationTest.UI.EditTextExt,StrideRotationTest.Game ref!! 85ec99cb-dd50-4957-b83a-fdaeac357951
+                Orientation: Horizontal
+            Base:
+                BasePartAsset: 8bf21a1d-a1d1-4201-af86-cf672a5025f5:RotationUILibrary
+                BasePartId: 281f77b6-c09b-408c-9d6d-58cb32e050f4
+                InstanceId: e6fe7597-92c3-4e66-a4f6-e9e2c5290b4c
+        -   UIElement: !TextBlock
+                Id: bb2df792-b24e-4bd9-89e2-61664377e829
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: ZYX
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 278b5699-4981-4ecc-9fb2-30f006d9554d
+        -   UIElement: !TextBlock
+                Id: c152a41f-6e78-498f-a3c1-84885bf2bc5e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: Matrix
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 9015253a-f993-4c1c-b6bb-69e9e842d9b9
+        -   UIElement: !TextBlock
+                Id: c5229bbd-3e8b-4c28-b8c1-50a5f5fa8d07
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: XYZ
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 59bc7661-e117-470f-994b-328b179c7f00
+        -   UIElement: !StrideRotationTest.UI.ButtonExt,StrideRotationTest.Game
+                Id: d97d6dc1-44e0-492f-a259-5caa7efdff13
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name*: OrderZXYButton
+                Content: !TextBlock ref!! 001ac816-f56f-4332-8744-f660d0c18215
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                NavigatableSelectedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 1e2affe9-47ac-40a3-88ff-f6f27d1d7846
+                InstanceId: 8f2b8b9f-f262-4e7a-a4f5-f32f1c471107
+        -   UIElement: !TextBlock
+                Id: e3fb21fc-4dbc-4aca-8858-1925b36099c7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text*: Quaternion
+                Font: 0771de3d-4357-4359-b587-85a9e14e629b:ArialSpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 8dd0d509-b0d7-4955-a202-7a46b806f4fb:ControlsExt
+                BasePartId: 13717198-51e2-4bad-94fd-29bd150fbb23
+                InstanceId: 4b2d8ec2-359f-410b-99a1-9a472b64c21b

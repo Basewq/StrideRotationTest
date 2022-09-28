@@ -10,22 +10,9 @@ Hierarchy:
         - ref!! 635f00cc-6c93-49c9-8be1-961c15129bec
         - ref!! cc45551e-42e9-4ae8-ad72-d4cf10775b27
         - ref!! 53f2931a-49ac-41b6-b0a6-9d1fed888620
-        - ref!! 0e1d351b-eddb-4b1a-b391-7b9250ece7cc
+        - ref!! 6db18287-335c-489a-a381-f0ab4c629571
+        - ref!! 6b2e4d9e-f09c-45e8-a5ab-de3561a1ffe4
     Parts:
-        -   Entity:
-                Id: 0e1d351b-eddb-4b1a-b391-7b9250ece7cc
-                Name: Sphere
-                Components:
-                    38b72056b3fd218528f19fb8ae346ac1: !TransformComponent
-                        Id: 6cabab7a-61ce-4cd0-901c-18badfd515a2
-                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    d7e64ba260ee6f5a8509a2a6a04c074f: !ModelComponent
-                        Id: ef2cb5e0-5ae6-429f-9018-2218b94430b3
-                        Model: 87a70127-f24c-4751-8cbf-312224e13414:Sphere
-                        Materials: {}
         -   Entity:
                 Id: 53f2931a-49ac-41b6-b0a6-9d1fed888620
                 Name: Ground
@@ -66,6 +53,42 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 20.0
         -   Entity:
+                Id: 6b2e4d9e-f09c-45e8-a5ab-de3561a1ffe4
+                Name: Controller
+                Components:
+                    218efbcb0da8f9687e09ae722f249d42: !TransformComponent
+                        Id: d7090d34-dea3-4b20-a028-4b8fe0022b2a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    db4f6ff7917464912005d5a1d3626e21: !StrideRotationTest.GameStartupScript,StrideRotationTest.Game
+                        Id: b1f8d740-bc21-4eab-bc90-831e9d0a6e55
+                    2a1faf369007913e27b48beed8abf452: !UIComponent
+                        Id: 6149dadd-b9dd-44d6-aebb-01ac6ba705fc
+                        Enabled: false
+                        Page: a0ba0b2f-46aa-437e-8c8c-906c9332dd6d:RotationUIPage
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        RenderGroup: Group31
+                    8703afb093cff29995bd712a08d57a45: !StrideRotationTest.RotationControllerScript,StrideRotationTest.Game
+                        Id: 8a2702bf-0d70-46b4-8e27-507c25750eb1
+                        RotationTarget: ref!! 6db18287-335c-489a-a381-f0ab4c629571
+        -   Entity:
+                Id: 6db18287-335c-489a-a381-f0ab4c629571
+                Name: TestModel
+                Components:
+                    44948387ec0b30ec02c1c428580e277f: !TransformComponent
+                        Id: 3b9ee757-cd29-4256-84f0-d868c26b77d6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4be7bc2d942ee57ee9b31c4e150a398a: !ModelComponent
+                        Id: db017800-eb7c-4c50-85c4-4ba4261f266e
+                        Model: f68ea240-695a-4de5-9884-60d77544fcd6:Models/mannequinModel
+                        Materials: {}
+        -   Entity:
                 Id: cc45551e-42e9-4ae8-ad72-d4cf10775b27
                 Name: Skybox
                 Components:
@@ -88,8 +111,8 @@ Hierarchy:
                 Components:
                     33c76cb448d42c3b55d9df45e3016803: !TransformComponent
                         Id: 24e0e3d4-f32b-4023-b67a-dcb8b5f02816
-                        Position: {X: 2.6, Y: 0.6, Z: -1.0}
-                        Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
+                        Position: {X: 0.0, Y: 5.0, Z: 6.0}
+                        Rotation: {X: -0.3007058, Y: 0.0, Z: 0.0, W: 0.95371693}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     7ba57663d93032bda21e335f7c97b194: !CameraComponent

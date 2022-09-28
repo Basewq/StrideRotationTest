@@ -102,21 +102,21 @@ namespace StrideRotationTest
                 {
                     // Move with keyboard
                     // Forward/Backward
-                    if (Input.IsKeyDown(Keys.W) || Input.IsKeyDown(Keys.Up))
+                    if (Input.IsKeyDown(Keys.W))// || Input.IsKeyDown(Keys.Up))
                     {
                         dir.Z += 1;
                     }
-                    if (Input.IsKeyDown(Keys.S) || Input.IsKeyDown(Keys.Down))
+                    if (Input.IsKeyDown(Keys.S))// || Input.IsKeyDown(Keys.Down))
                     {
                         dir.Z -= 1;
                     }
 
                     // Left/Right
-                    if (Input.IsKeyDown(Keys.A) || Input.IsKeyDown(Keys.Left))
+                    if (Input.IsKeyDown(Keys.A))// || Input.IsKeyDown(Keys.Left))
                     {
                         dir.X -= 1;
                     }
-                    if (Input.IsKeyDown(Keys.D) || Input.IsKeyDown(Keys.Right))
+                    if (Input.IsKeyDown(Keys.D))// || Input.IsKeyDown(Keys.Right))
                     {
                         dir.X += 1;
                     }
